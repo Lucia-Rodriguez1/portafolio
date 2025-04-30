@@ -297,7 +297,80 @@ h4{
     
 }
 
-/*usar flexbox para hacer las columnas
-flex wrap
-carrucel 
-fancybox
+/*.contacto{
+    background-color: #FBE8BD;
+    text-align: center;
+    margin-bottom: 5%;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding: 2%;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boton {
+    text-decoration: none;
+    color: #25363E;
+    font-size: 20px;
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    transition: transform 0.3s ease;
+}
+
+.boton :hover{
+    transform: translateY(-6px); 
+}
+    */
+
+.contacto{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+
+
+.btn {
+        position: relative;
+        padding: 1rem 2rem;
+        font-size: 1rem;
+        font-weight: 600;
+        color: white;
+        background: none;
+        border: 2px solid #FBE8BD;
+        border-radius: 8px;
+        cursor: pointer;
+        overflow: hidden;
+        transition: all 0.3s ease;
+      }
+      
+.liquid {
+        background: linear-gradient(#FBE8BD 0 0) no-repeat calc(200% - var(--p, 0%))
+          100% / 200% var(--p, 0.2em);
+        transition: 0.3s var(--t, 0s),
+          background-position 0.3s calc(0.3s - var(--t, 0s));
+      }
+.liquid:hover {
+        --p: 100%;
+        --t: 0.3s;
+        color: #25363E;
+      }
+
+      .btn {
+        padding: 10px 20px;
+        margin: 10px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.3s ease;
+      }
+
+/*.anim{
+    transition: transform 0.3s ease;
+}
+
+.anim :hover{
+    transform: translateY(-5px);
+}
