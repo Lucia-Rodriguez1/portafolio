@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+ }
+ 
+main{
+    min-width: 300px;
+}
+
+ body{
+    background-color: #25363E;
+    
+ }
+
+h3{         
+  font-family: "Atma", system-ui;
+  font-weight: 600;
+  font-style: normal;
+  color: #FBE8BD;
+  font-size: 4vh;
+
+}
+
+h2{
+    font-family: "Atma", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    color: #FBE8BD;
+    
+}
+
+.port{
+    width: 100%;
+    
+}
+
+
+p{
+    font-family: "Asap Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #FBE8BD;
+}
+
+.cont1{
+    display: flex;
+    
+}
+
+.port2{
+    width: 100%;
+    margin-bottom: 6vh;
+    
+    }
+    
+
+.quiensoy{
+    margin-right: 10%;
+    margin-top: 10%;
+   
+}
+
+.a{
+    color: #FBE8BD;
+}
+
+
+.cont2{
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+/*.botones{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    width: 50hv;
+    min-width: 300px;
+    max-width: 1000px ;
+    
+}
+*/
+
+/*.botones{ 
+    margin: auto;
+    width: 90%;
+    max-width: 1000px;
+   
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+*/
+.botones{
+
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    margin-top: 5%;
+    
+}
+
+
+
+
+.bt img{
+    max-width: 300px;
+    padding: 1rem;
+}
+
+
+
+.contactos1{
+    width: 100%;
+}
+
+.soft{
+    width: 100%;
+}
+
+.proyectos{
+    background-color:#FBE8BD ;
+    margin-top: 30vh;
+    margin-bottom: 8vh;
+    color: #25363E;
+    padding: 2vh;
+    text-align: center;
+}
+
+.sec1{
+    background-color:#FBE8BD ;
+   
+}
+.sec1,h2,p{
+     color:#25363E;
+}
+.ilustraciones{
+    text-align: center;
+    border: 7px solid #25363E;
+    border-radius: 20px;
+    padding: 5px;
+    background-color: #FBE8BD;
+    margin-left: 30px;
+    margin-right: 30px;
+   margin-bottom: 10%;
+ 
+}
+.ilustraciones h3{
+    color: #25363E;
+}
+
+.moderno{
+    width: 80%;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+   margin-left: 10%;
+   padding: 5px;
+   margin-bottom: 10%;
+}
+
+.img{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+
+}
+
+.img1 img{
+    width: 100%;
+    border-radius: 20px;
+    border: 7px solid #25363E;
+    background-color: #25363E;
+}
+
+.texto1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    
+}
+
+.dn{
+    border: 7px solid #FBE8BD;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h4{
+    font-family: "Atma", system-ui;
+    font-weight: 600;
+    font-style: normal;
+    color: #FBE8BD;
+    font-size: 3vh;
+}
+
+.personaje1{
+
+    text-align: center;
+}
+
+.dsperso{
+    display: flex;
+    justify-content: center;
+}
+
+.dsperso img{
+    max-width: 30%;
+    padding: 2%;
+}
+
+.texto2{
+    text-align: center;
+    padding: 1%;
+}
+
+.personaje2{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.video{
+    max-width: 90%;
+    margin-left: 5%;
+}
+
+.proyectos2{
+    background-color:#FBE8BD ;
+    color: #25363E;
+    padding: 2vh;
+    text-align: center;
+}
+
+.img5{
+    max-width: 100%;
+    padding-bottom: 6%;
+}
+
+.hs{
+    display: flex;
+   column-gap: 6%;
+    margin: 8%;
+}
+.hs h3{
+    text-align: center;
+}
+
+.imagenes1 img{
+    width: 100%;
+    object-fit: cover;
+    padding: 4px;
+
+}
+
+.imagenes1{
+    width: 90%;
+    max-width: 200px;
+    display: flex;
+    justify-items: center;
+    margin: 2%;
+ 
+}
+
+.edicion{
+    background-color: #25363E;
+    text-align: center;
+    padding: 4px;
+   
+
+}
+
+.moderno2{
+    width: 80%;
+    gap: 16px;
+    display: flex;
+    justify-content: center;
+   margin-left: 10%;
+   padding: 5px;
+   margin-bottom: 5%;
+
+}
+
+.texto3{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5%;
+    
+}
+
+/*usar flexbox para hacer las columnas
+flex wrap
+carrucel 
+fancybox
