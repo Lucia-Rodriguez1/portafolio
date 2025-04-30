@@ -337,9 +337,9 @@ h4{
         padding: 1rem 2rem;
         font-size: 1rem;
         font-weight: 600;
-        color: white;
+        color: #FBE8BD;
         background: none;
-        border: 2px solid #FBE8BD;
+        border: 4px solid #FBE8BD;
         border-radius: 8px;
         cursor: pointer;
         overflow: hidden;
@@ -358,14 +358,6 @@ h4{
         color: #25363E;
       }
 
-      .btn {
-        padding: 10px 20px;
-        margin: 10px;
-        border: none;
-        cursor: pointer;
-        font-size: 16px;
-        transition: all 0.3s ease;
-      }
 
 /*.anim{
     transition: transform 0.3s ease;
@@ -373,4 +365,5 @@ h4{
 
 .anim :hover{
     transform: translateY(-5px);
-}
+}*/
+
